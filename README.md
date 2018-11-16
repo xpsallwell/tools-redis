@@ -1,2 +1,2 @@
 # tools-redis
-# tools-redis
+基本jedis2.9.0二次开发，新增各配置类方便在工程当中引用配置，同时每次调用jedis的方法后会自动释放jedis到pool中，不用手动管理，避免了jedis忘记释放的问题在自己的工程中直接使用redisClient或ShardedRedisClient即可(单例，可结合spring bean放入配置文件中)
